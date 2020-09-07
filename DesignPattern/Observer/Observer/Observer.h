@@ -1,8 +1,11 @@
 #pragma once
+#ifndef OBSERVER
 
-class Observe {
+class Observer {
 public:
-	virtual ~Observe() {};
+	virtual ~Observer() {};
 	virtual void onNotify(const int& enity, int event) = 0;
 };
+
+#endif // !OBSERVER
 
