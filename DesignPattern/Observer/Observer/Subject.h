@@ -7,4 +7,5 @@ public:
 
 private:
 	Observer* observers_[MAX_OBSERVERS];
+	int numObservers_ = 0;
 };
