@@ -8,4 +8,7 @@ public:
 private:
 	Observer* observers_[MAX_OBSERVERS];
 	int numObservers_ = 0;
+
+protected:
+	void notify(const Entity& entity, int event);
 };
