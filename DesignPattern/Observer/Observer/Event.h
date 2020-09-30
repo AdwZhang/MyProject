@@ -1,15 +1,9 @@
 #pragma once
 #ifndef EVENT
 
-class Event
-{
-public:
-	Event() {};
-	virtual ~Event() {};
+typedef int Event;
 
-private:
-
-};
+#define EVENT_ENTITY_FALL 10001
 
 
 #endif // !EVENT

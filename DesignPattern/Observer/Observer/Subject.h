@@ -1,5 +1,7 @@
 #pragma once
 #include "Observer.h"
+#include "Event.h"
+
 class Subject {
 public:
 	void addObserver(Observer* observer);
@@ -10,5 +12,5 @@ private:
 	int numObservers_ = 0;
 
 protected:
-	void notify(const Entity& entity, int event);
+	void notify(const Entity& entity, Event event);
 };

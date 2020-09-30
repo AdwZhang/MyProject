@@ -1,6 +1,6 @@
-#include "Enity.h"
+#include "Entity.h"
 
 int main() {
-	Enity myHero = Enity();
+	Entity myHero = Entity();
 	return 0;
 }

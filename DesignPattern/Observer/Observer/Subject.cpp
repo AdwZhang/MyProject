@@ -8,7 +8,7 @@ void Subject::removeObserver(Observer* observer) {
 
 }
 
-void Subject::notify(const Entity& entity, int event) {
+void Subject::notify(const Entity& entity, Event event) {
 	for (int i = 0; i < numObservers_; i++) {
 		observers_[i]->onNotify(entity, event);
 	}
