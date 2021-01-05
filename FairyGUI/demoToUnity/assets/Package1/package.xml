@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="604y5r33">
+  <resources>
+    <component id="xjfq0" name="Component1.xml" path="/" exported="true"/>
+    <image id="odip2" name="east_v1_217.png" path="/"/>
+    <component id="odip4" name="Button1.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

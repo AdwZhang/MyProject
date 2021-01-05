@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n0_odip" name="n0" src="odip4" fileName="Button1.xml" xy="604,393">
+      <Button title="呵呵" selectedTitle="哈哈"/>
+    </component>
+    <component id="n1_odip" name="n1" src="odip4" fileName="Button1.xml" xy="603,509"/>
+  </displayList>
+</component>
